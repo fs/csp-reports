@@ -1,1 +1,157 @@
-<h3>CSP Violation Report Tool</h3>
+<div class="container">
+  <h3 class="mb">CSP Violation Report Tool</h3>
+
+  <p class="mb">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <div class="mb">
+    <button type="button" class="btn--primary">
+      <i class="sci sci--sm sci__add"></i>
+      Add website
+    </button>
+  </div>
+
+
+  <div class="grid">
+    <div class="grid__item col-1-2">
+      <div class="panel panel--info">
+        <div class="panel__heading">Add website</div>
+        <div class="panel__body">
+
+          <input type="text" class="control--text" placeholder="Name">
+          <input type="text" class="control--text" placeholder="URL">
+
+          <button type="button" class="btn--success">
+            <i class="sci sci--sm sci__check"></i>
+            Save
+          </button>
+
+          <button type="button" class="btn">
+            <i class="sci sci--sm sci__close"></i>
+            Cancel
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="bo-b--1 mb">
+    SRCCLR.COM
+  </h3>
+
+  <div class="grid grid--full grid--middle mb">
+    <div class="grid__item col-1-8">
+      <label class="m0">CSP Report URI</label>
+    </div>
+    <div class="grid__item col-7-8">
+      <input type="text" style="color: #DADCDF;" class="control--text m0" value="https://open.srcclr.com/report-uri/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" disabled>
+    </div>
+  </div>
+
+  <div class="grid grid--middle mb">
+    <div class="grid__item col-1-2">
+      <button type="button" class="btn--primary">Today</button>
+      <button type="button" class="btn">Week</button>
+      <button type="button" class="btn">Month</button>
+      <button type="button" class="btn">Quarter</button>
+      <button type="button" class="btn">Year</button>
+      <button type="button" class="btn">Custom interval</button>
+    </div>
+
+    <div class="grid__item col-1-2">
+      <div class="grid grid--narrow">
+        <div class="grid__item col-1-3">
+          <input type="text" class="control--text m0" placeholder="Start Date">
+        </div>
+        <div class="grid__item col-1-3">
+          <input type="text" class="control--text m0" placeholder="End Date">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="grid__item col-1-1">
+      <ul class="nav nav--tabs p0 mb">
+        <li class="navbar__item active">
+          <a class="navbar__link" href="#">
+            <i class="sci sci__view-list"></i>
+            <span>List</span>
+          </a>
+        </li>
+        <li class="navbar__item">
+          <a class="navbar__link" href="#">
+            <i class="sci sci__view--graph"></i>
+            <span>Graph</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid mb">
+    <div class="grid__item col-1-1">
+      <table class="table--striped">
+        <thead>
+          <tr style="font-weight: bold;">
+            <td>Date</td>
+            <td>URI</td>
+            <td>Violated Directive</td>
+            <td>Blocked URI</td>
+            <td>Raw</td>
+          </tr>
+        </thead>
+        <tbody class="mb">
+          <tr>
+            <td>06/10/2015 08:53 AM</td>
+            <td>http://srcclr.com/login</td>
+            <td>script-src: 'self'</td>
+            <td>http://yetanotherdomain.com/</td>
+            <td><button type="button" name="btn--devault btn--sm">Show</button></td>
+          </tr>
+          <tr>
+            <td>06/10/2015 08:53 AM</td>
+            <td>http://srcclr.com/login</td>
+            <td>script-src: 'self'</td>
+            <td>http://yetanotherdomain.com/</td>
+            <td><button type="button" name="btn--devault btn--sm">Show</button></td>
+          </tr>
+          <tr>
+            <td>06/10/2015 08:53 AM</td>
+            <td>http://srcclr.com/login</td>
+            <td>script-src: 'self'</td>
+            <td>http://yetanotherdomain.com/</td>
+            <td><button type="button" name="btn--devault btn--sm">Show</button></td>
+          </tr>
+          <tr>
+            <td>06/10/2015 08:53 AM</td>
+            <td>http://srcclr.com/login</td>
+            <td>script-src: 'self'</td>
+            <td>http://yetanotherdomain.com/</td>
+            <td><button type="button" name="btn--devault btn--sm">Show</button></td>
+          </tr>
+          <tr>
+            <td>06/10/2015 08:53 AM</td>
+            <td>http://srcclr.com/login</td>
+            <td>script-src: 'self'</td>
+            <td>http://yetanotherdomain.com/</td>
+            <td><button type="button" name="btn--devault btn--sm">Show</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="grid mb">
+
+  </div>
+
+
+</div>
